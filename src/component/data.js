@@ -49,11 +49,7 @@ export const movies=[
         id:5
 
     },
-    {
-        name:"",
-        img:"",
-        star:0
-    }
+    
 
 ];
 

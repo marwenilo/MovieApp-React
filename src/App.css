@@ -8,6 +8,7 @@
   text-align: center;
 }
 .movieApp {
+  justify-content: space-evenly;
   text-align: center;
   margin: 50px;
   display: flex;
@@ -122,4 +123,31 @@ height:150px;
 }
 .moda{
   padding:  0 50px;
+}
+.cardBtn{
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.btnEdit{
+  padding: 5px 20px ;
+  align-content: center;
+  margin-right: 2px;
+}
+.btnDelite{
+  padding: 5px 20px ;
+  align-content: center;
+  margin-left: 2px;
+}
+.btnEdit:hover{
+  padding: 20px 20px ;
+
+}
+.btnDelite:hover{
+  padding: 20px 20px ;
+
+
 }

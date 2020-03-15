@@ -56,10 +56,7 @@ class Maodal extends React.Component {
                        <span>Rating: </span><input type="text" placeholder="Enter Rating" name='star' onChange={this.handleChange} value={this.state.star}/>
                        <span>Image URL </span><input type="text" placeholder="Enter Image URL" name='img' onChange={this.handleChange} value={this.state.img}/>
                    </form>
-                   {/* <Button color="primary" className="add-btn" onClick={()=> this.props.add(this.state.name,
-                                                                                            this.state.img, 
-                                                                                            this.state.star)} >
-                                                                                              validate</Button> */}
+               
            <Button color="secondary" className="add-btn" onClick={this.toggle}>Cancel</Button>
                
         </Modal>

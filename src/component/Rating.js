@@ -3,7 +3,7 @@ import React from 'react'
 // ★ ☆
 
 const Rating = ({minRate, handleRate }) => {
-    console.log(minRate)
+
     let stars = []
     for(let i = 0; i < 5; i++) {
         if(i < minRate) {
